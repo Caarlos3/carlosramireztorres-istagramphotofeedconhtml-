@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(255, 254, 254); 
+}
+h1 {
+    color: green;
+    text-align: center;
+    
+}
+
+
+.conteiner {
+    width: 600px;
+    margin: auto;
+}
+main {
+    background-color: rgb(228, 228, 228);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+article {
+    background-color: white;
+    width: 600px;
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+article > header {
+    padding: 0px 10px;
+}
+
+.title {
+    overflow: hidden;
+    width: 50%;
+    float: left;
+    font-size: 20px;
+}
+
+.date_container {
+    text-align: right;
+    font-size: 20px;
+    padding: 10px;
+    color: rgb(212, 210, 210);
+}
